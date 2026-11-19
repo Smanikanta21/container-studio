@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAC025FE1DF94E15920C01A1 /* DockerMigrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC025FE1DF94E15920C01A2 /* DockerMigrationView.swift */; };
+		9D8F45E7C3B04E0A895A9121 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F45E7C3B04E0A895A9122 /* AppIcon.icon */; };
+		06CDE2D3A6B843B329BD62D9 /* StudioStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E5D5298A39C05A68A430C /* StudioStore.swift */; };
+		1153FF75A39ADA9EE78D8A73 /* EnvironmentChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4E4010740D7304DC74EE2 /* EnvironmentChecklistView.swift */; };
+		33D61397B5CEE6F9F9FF7E1A /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9A3CED4FAE56586C87BC0 /* IntroductionView.swift */; };
+		4B8A91A4AC48493C97955C22 /* StudioLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A68E34C56DA59687AAAA9FA /* StudioLogo.swift */; };
+		50C2091122A959EBDCBD98AE /* Studio.icns in Resources */ = {isa = PBXBuildFile; fileRef = 727CAC0D4F15A380EF314DC2 /* Studio.icns */; };
+		6A8FDD7C5A70C90C5A343477 /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AC9E49A4BD5B7446F7C417 /* StudioView.swift */; };
+		721E2CE06B25B2E30BF43E87 /* StudioInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22787C2BA3977AD61FB5757 /* StudioInstance.swift */; };
+		80D1F551D0C31E4F874F8152 /* ContainerInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D667981C4A31228579A9936 /* ContainerInspector.swift */; };
+		D2252296EC4C54FC63494DB9 /* ContainerStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35437C65B2626BF8F4E1959 /* ContainerStudioApp.swift */; };
+		F2C18F66529BB632993F2217 /* StudioCore in Frameworks */ = {isa = PBXBuildFile; productRef = 63F7FF74A3BD9854DEE49C40 /* StudioCore */; };
+		F2CB7D91FE79FB489C20AA9A /* EngineSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6D1E664174F9909D342C0 /* EngineSetupView.swift */; };
+		999CAC9D7B9CED2D17ECF323 /* WorkspaceToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0711E1D8C18078BDBF1C43 /* WorkspaceToolsView.swift */; };
+		5B0030303030303030303030 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 5B0020202020202020202020 /* SwiftTerm */; };
+		3A782EC69D9EF3F41554B080 /* ContainerTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6278E614F3A97DED0BD507 /* ContainerTerminalView.swift */; };
+		96821CEF3835AF8A85415F88 /* ContainerFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D89D99D1BED3F40778BC3E /* ContainerFilesView.swift */; };
+		5B0050505050505050505050 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B0040404040404040404040 /* ThirdPartyNotices.txt */; };
+		6CA1848D604CB0DF8842103E /* StudioPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EC9188EC2BE3780EC35BB6 /* StudioPreview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAC025FE1DF94E15920C01A2 /* DockerMigrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerMigrationView.swift; sourceTree = "<group>"; };
+		9D8F45E7C3B04E0A895A9122 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		06AC9E49A4BD5B7446F7C417 /* StudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioView.swift; sourceTree = "<group>"; };
+		1D667981C4A31228579A9936 /* ContainerInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerInspector.swift; sourceTree = "<group>"; };
+		3299D26361F5F0894A476BD5 /* Container Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Container Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F4E4010740D7304DC74EE2 /* EnvironmentChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentChecklistView.swift; sourceTree = "<group>"; };
+		6A68E34C56DA59687AAAA9FA /* StudioLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioLogo.swift; sourceTree = "<group>"; };
+		727CAC0D4F15A380EF314DC2 /* Studio.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Studio.icns; sourceTree = "<group>"; };
+		8FC9A3CED4FAE56586C87BC0 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		A862CA17ED79C47DD0123B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E6D1E664174F9909D342C0 /* EngineSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineSetupView.swift; sourceTree = "<group>"; };
+		C35437C65B2626BF8F4E1959 /* ContainerStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerStudioApp.swift; sourceTree = "<group>"; };
+		DC5E5D5298A39C05A68A430C /* StudioStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioStore.swift; sourceTree = "<group>"; };
+		E22787C2BA3977AD61FB5757 /* StudioInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioInstance.swift; sourceTree = "<group>"; };
+		2C0711E1D8C18078BDBF1C43 /* WorkspaceToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceToolsView.swift; sourceTree = "<group>"; };
+		7F6278E614F3A97DED0BD507 /* ContainerTerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTerminalView.swift; sourceTree = "<group>"; };
+		85D89D99D1BED3F40778BC3E /* ContainerFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerFilesView.swift; sourceTree = "<group>"; };
+		5B0040404040404040404040 /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
+		A7EC9188EC2BE3780EC35BB6 /* StudioPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioPreview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E9B1F6C9DB375FA10D2F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C18F66529BB632993F2217 /* StudioCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0B4D42C0981F3D4F9A0E36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A862CA17ED79C47DD0123B0E /* Info.plist */,
+				9D8F45E7C3B04E0A895A9122 /* AppIcon.icon */,
+				5B0040404040404040404040 /* ThirdPartyNotices.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E78257CB7E96B4FB12365AB7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63F4E4010740D7304DC74EE2 /* EnvironmentChecklistView.swift */,
+				8FC9A3CED4FAE56586C87BC0 /* IntroductionView.swift */,
+				1D667981C4A31228579A9936 /* ContainerInspector.swift */,
+				85D89D99D1BED3F40778BC3E /* ContainerFilesView.swift */,
+				7F6278E614F3A97DED0BD507 /* ContainerTerminalView.swift */,
+				2C0711E1D8C18078BDBF1C43 /* WorkspaceToolsView.swift */,
+				C35437C65B2626BF8F4E1959 /* ContainerStudioApp.swift */,
+				B0E6D1E664174F9909D342C0 /* EngineSetupView.swift */,
+				E22787C2BA3977AD61FB5757 /* StudioInstance.swift */,
+				6A68E34C56DA59687AAAA9FA /* StudioLogo.swift */,
+				DC5E5D5298A39C05A68A430C /* StudioStore.swift */,
+				A7EC9188EC2BE3780EC35BB6 /* StudioPreview.swift */,
+				BAC025FE1DF94E15920C01A2 /* DockerMigrationView.swift */,
+				06AC9E49A4BD5B7446F7C417 /* StudioView.swift */,
+			);
+			name = App;
+			path = Sources/ContainerStudio;
+			sourceTree = "<group>";
+		};
+		F290566F63009E698205EF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3299D26361F5F0894A476BD5 /* Container Studio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F929010C6220910C93F58046 = {
+			isa = PBXGroup;
+			children = (
+				E78257CB7E96B4FB12365AB7 /* App */,
+				6E0B4D42C0981F3D4F9A0E36 /* Resources */,
+				F290566F63009E698205EF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABBBC9014B94AB0FC8D2D37 /* Container Studio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8826B6C0EDC743623229DBF1 /* Build configuration list for PBXNativeTarget "Container Studio" */;
+			buildPhases = (
+				45BC9E9D818B540EBDC1359A /* Sources */,
+				C1E9B1F6C9DB375FA10D2F4E /* Frameworks */,
+				3D0F382F7DC2917AD41918D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Container Studio";
+			packageProductDependencies = (
+				63F7FF74A3BD9854DEE49C40 /* StudioCore */,
+				5B0020202020202020202020 /* SwiftTerm */,
+			);
+			productName = "Container Studio";
+			productReference = 3299D26361F5F0894A476BD5 /* Container Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00AFC25A89756A194E932FA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					CABBBC9014B94AB0FC8D2D37 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = 201CAC75F3D1466C811A9FD9 /* Build configuration list for PBXProject "ContainerStudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F929010C6220910C93F58046;
+			packageReferences = (
+				F3ECB4DAAF9B054EF5BA66B4 /* XCLocalSwiftPackageReference "." */,
+				5B0010101010101010101010 /* SwiftTerm */,
+			);
+			productRefGroup = F290566F63009E698205EF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABBBC9014B94AB0FC8D2D37 /* Container Studio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0F382F7DC2917AD41918D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8F45E7C3B04E0A895A9121 /* AppIcon.icon in Resources */,
+				5B0050505050505050505050 /* ThirdPartyNotices.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BC9E9D818B540EBDC1359A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1153FF75A39ADA9EE78D8A73 /* EnvironmentChecklistView.swift in Sources */,
+				33D61397B5CEE6F9F9FF7E1A /* IntroductionView.swift in Sources */,
+				80D1F551D0C31E4F874F8152 /* ContainerInspector.swift in Sources */,
+				96821CEF3835AF8A85415F88 /* ContainerFilesView.swift in Sources */,
+				3A782EC69D9EF3F41554B080 /* ContainerTerminalView.swift in Sources */,
+				999CAC9D7B9CED2D17ECF323 /* WorkspaceToolsView.swift in Sources */,
+				D2252296EC4C54FC63494DB9 /* ContainerStudioApp.swift in Sources */,
+				F2CB7D91FE79FB489C20AA9A /* EngineSetupView.swift in Sources */,
+				721E2CE06B25B2E30BF43E87 /* StudioInstance.swift in Sources */,
+				4B8A91A4AC48493C97955C22 /* StudioLogo.swift in Sources */,
+				06CDE2D3A6B843B329BD62D9 /* StudioStore.swift in Sources */,
+				6CA1848D604CB0DF8842103E /* StudioPreview.swift in Sources */,
+				BAC025FE1DF94E15920C01A1 /* DockerMigrationView.swift in Sources */,
+				6A8FDD7C5A70C90C5A343477 /* StudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12B957C3CB3E6754363BCB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = ContainerStudio;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Container Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.containerstudio.prototype;
+				PRODUCT_NAME = "Container Studio";
+			};
+			name = Release;
+		};
+		463156BFDC48DEB7E02B25E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				ENABLE_PREVIEWS = YES;
+			};
+			name = Debug;
+		};
+		E6916B8D032E78DC45CAF3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				ENABLE_PREVIEWS = YES;
+			};
+			name = Release;
+		};
+		F106FF9D48D8C6490DAD56EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = ContainerStudio;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Container Studio";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.containerstudio.prototype;
+				PRODUCT_NAME = "Container Studio";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201CAC75F3D1466C811A9FD9 /* Build configuration list for PBXProject "ContainerStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463156BFDC48DEB7E02B25E3 /* Debug */,
+				E6916B8D032E78DC45CAF3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8826B6C0EDC743623229DBF1 /* Build configuration list for PBXNativeTarget "Container Studio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F106FF9D48D8C6490DAD56EC /* Debug */,
+				12B957C3CB3E6754363BCB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F3ECB4DAAF9B054EF5BA66B4 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5B0010101010101010101010 /* SwiftTerm */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git"; requirement = {kind = exactVersion; version = 1.11.2; }; };
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5B0020202020202020202020 /* SwiftTerm */ = {isa = XCSwiftPackageProductDependency; package = 5B0010101010101010101010 /* SwiftTerm */; productName = SwiftTerm; };
+		63F7FF74A3BD9854DEE49C40 /* StudioCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3ECB4DAAF9B054EF5BA66B4 /* XCLocalSwiftPackageReference "." */;
+			productName = StudioCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 00AFC25A89756A194E932FA3 /* Project object */;
+}

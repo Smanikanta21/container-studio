@@ -1,0 +1,24 @@
+.build/
+.swiftpm/
+dist/
+artifacts/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.mobileprovision
+
+# Local design experiments and internal working documents
+/prototype/
+/docs/superpowers/
+/docs/NATIVE-IMPLEMENTATION-NOTES.md
+/branding/identity-preview.html
+*PLAN*.md
+*AUDIT*.md
+*REPORT*.md
+*VERIFICATION*.md
